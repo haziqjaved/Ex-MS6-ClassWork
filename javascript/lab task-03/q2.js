@@ -1,0 +1,21 @@
+        //Task-02
+var num =  prompt("Enter a Number:",5);
+document.write(num+"* 1"+"="+num*1);
+document.write("<br>");
+document.write(num+"* 2"+"="+num*2);
+document.write("<br>");
+document.write(num+"* 3"+"="+num*3);
+document.write("<br>");
+document.write(num+"* 4"+"="+num*4);
+document.write("<br>");
+document.write(num+"* 5"+"="+num*5);
+document.write("<br>");
+document.write(num+"* 6"+"="+num*6);
+document.write("<br>");
+document.write(num+"* 7"+"="+num*7);
+document.write("<br>");
+document.write(num+"* 8"+"="+num*8);
+document.write("<br>");
+document.write(num+"* 9"+"="+num*9);
+document.write("<br>");
+document.write(num+"* 10"+"="+num*10);

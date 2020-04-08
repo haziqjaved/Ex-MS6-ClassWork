@@ -1,0 +1,74 @@
+----------------------Q1-------
+var data = [
+{
+    country: 'China',
+    population: 14095177
+},
+{
+ country: 'India',
+population: 13390127
+},
+{
+country: 'USA',
+population: 324459463},
+    {
+        country: 'Indonesia',
+        population: 263991379   }
+]
+function check(pop)
+{
+ return pop.population >160000000;
+}
+console.log(data.filter(check));
+
+----------------------Q2-------
+const students = ['hassan', 'salman', 'kamran', 'rashid', 'faizan', "noor"];
+
+const filterValues = (name) => {
+    return students.filter(data => {
+        return data.toLowerCase().indexOf(name.toLowerCase()) > -1;
+    });
+}
+document.write(filterValues('an'));
+
+
+----------------------Q3-------
+
+const numbers = [1, 3, 4, 6, 8, 9];
+
+const filterVal= () => {
+  return numbers.filter(number => 
+    {
+      return number % 2 == 0;
+  }
+  );
+}
+document.write(filterVal());
+
+------------------Q4
+ const fruits =[
+ {name: 'apples', quantity: 2},
+   {name: 'bananas', quantity: 0},
+    {name: 'cherries', quantity: 5}
+];
+var inputName=prompt("Enter your Fruits name:").toLowerCase();
+function checkfruits(fruits)
+{
+    return fruits.name==inputName;
+}
+var userSearch= fruits.find(checkfruits);
+console.log(userSearch);
+
+-------------------Q5
+
+function doHomework(abc)
+{
+    alert("start Work");
+}
+function call(callback)
+{
+ var abc=alert("work done");
+ callback(abc)
+}
+doHomework();
+setTimeout(call,500);

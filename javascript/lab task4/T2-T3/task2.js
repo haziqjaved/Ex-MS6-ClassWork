@@ -1,0 +1,28 @@
+document.write("<h4>"+"Counting:"+"</h4>");
+for(i=1;i<=15;i++)
+{
+    document.write("Counting:"+i+"<br>");
+}
+document.write("<h4>"+"Reverse Counting:"+"</h4>");
+for(i=10;i>0;i--)
+{
+    document.write(i+"<br>");
+}
+document.write("<h4>"+"Even:"+"</h4>")
+for(i=0;i<=20;i++)
+{
+    document.write(i+"<br>");
+    ++i;
+}
+document.write("<h4>"+"Odd:"+"</h4>")
+for(i=1;i<20;i++)
+{
+    document.write(i+"<br>");
+    ++i;
+}
+document.write("<h4>"+"Series:"+"</h4>")
+for(i=2;i<=20;i++)
+{
+    document.write(i+"k"+"<br>");
+    ++i;
+}

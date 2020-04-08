@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">
+        Today Task 
+
+    </h1>
+    <script>
+        let User=async()=>
+        {
+            let userP= await fetch('http://jsonplaceholder.typicode.com/posts')
+            .then(response=>response.json())
+            return userP;
+        }
+        let com=async()=>
+        {
+            let comments= await fetch('http://jsonplaceholder.typicode.com/comments')
+            .then(response=>response.json())
+            return comments;
+        }
+    let ButCLick=async()=>
+    {
+        try{
+            let post= await User()
+            console.log('post :',post)
+            let allComent=  await com()
+            let comment =post.map(data=>{
+                data.Comment=allComent.filter(get=>data.id==get.postId)
+                return data;
+            })
+        }
+        catch(error) {console.log('Error :', error) }}
+    ButCLick()  
+    </script>
+</body>
+</html>
