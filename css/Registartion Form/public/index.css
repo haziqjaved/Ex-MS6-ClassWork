@@ -1,0 +1,126 @@
+#logo
+{
+    position: relative;
+    margin-left: 35%;
+
+}
+#email
+{
+    margin-left: 57px;
+}
+#numb
+{
+    margin-left: 38px;
+}
+.name,#addr
+{
+    margin-left: 40px;
+}
+#city
+{
+    margin-left: 76px;
+}
+#pin
+{
+    margin-left: 40px;
+}
+#state
+{
+    margin-left: 65px;
+}
+#cntry
+{
+    margin-left: 36px;
+}
+#other
+{
+    margin-left: 110px;
+}
+p
+{
+    position: relative;
+    left: 8px;
+}
+#signup
+{
+    background-color: blueviolet;
+    border: 2px solid;
+}
+h1
+{
+    color: blueviolet;
+    text-align: center;
+}
+
+.label
+{
+    position: relative;
+    left: 90px;
+    font-size: large;
+}
+#per
+{
+    position: relative;
+    left: 190px;
+}
+#pass
+{
+    position: relative;
+    left:290px;
+}
+#class-x{
+    position: relative;
+    left: 153px;
+    top: 4px;
+}
+
+.input-x{
+    position: relative;
+    left: 37px;
+}
+#class-xii{
+    position: relative;
+    left: 152px;
+    top: 7px;
+}
+.input-xii{
+    position: relative;
+    left: 28px;
+}
+
+#graduation{
+    position: relative;
+    left: 155px;
+    top: 10px;
+}
+
+.input-graduation{
+    position: relative;
+    left: 14px;
+}
+#masters{
+    position: relative;
+    left: 155px;
+    top: 10px;
+}
+.input-masters{
+    position: relative;
+    left: 34px;
+    top: 4px;
+}
+#board{
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+#percentage{
+    position: relative;
+    top: 10px;
+    left: 118px;
+}
+.btn
+{
+    border-radius: 05%;
+    position: relative;
+    left: 50%;
+}
